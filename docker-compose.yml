@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  vmq:
+    image: vernemq/vernemq
+    environment:
+      - DOCKER_VERNEMQ_ACCEPT_EULA=yes
+    ports:
+    - 1883:1883
