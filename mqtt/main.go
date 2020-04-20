@@ -1,7 +1,7 @@
 package main
 
 import (
-	"IoT-learning/client"
+	"IoT-learning/mqtt/client"
 	"fmt"
 	"log"
 	"time"
